@@ -6,6 +6,7 @@ layout: home
 ---
 
 
+
 # Introduction
 <!-- words -->
 Low-degree semi-structured spline is an [Blender](https://www.blender.org/) [add-on](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html) that can convert quad-dominant mesh
