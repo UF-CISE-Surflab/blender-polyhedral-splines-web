@@ -1,13 +1,13 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-exclude: true
+
+title: Introduction
 layout: home
 ---
 
 
 
-# Introduction
 <!-- words -->
 Low-degree semi-structured spline is an [Blender](https://www.blender.org/) [add-on](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html) that can convert quad-dominant mesh
 into piecewise B-spline patches, and enables artists to edit the shape in real-time.
