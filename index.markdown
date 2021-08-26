@@ -14,9 +14,10 @@ into piecewise B-spline patches, and enables artists to edit the shape in real-t
 
 **Features**
 1. Produce smooth surface without subdividing the mesh.
-(The common subdivision approaches, such as Catmull-Clark, exponentially increase the number of vertices that cause computational and storage overhead)
-2. Sharp details preserving (Please see results in the [implemented papers](#Implemented-algorithms))
-3. Guarantee C1 between patches to satisfy industrial standard
+(The Blender's default [subdivision](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/subdivision_surface.html) and [smooth operator](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/smooth.html), exponentially increase the number of vertices. This can cause excessive computational and storage overhead)
+2. Guarantee [C1](https://en.wikipedia.org/wiki/Smoothness) between patches (easy, exact computation of exact moments, e.g. volume, center of mass, axes of inertia, ...)
+3. Low-degree splines generalize bi-2 (bi-quadratic) splines. Bi-2 splines are by default less smooth than bi-3 splines
+and curvature changes more sharply. This may be useful to preserve the polyhedral character of the input.
 
 <!-- demo video here -->
 **Demo video**
@@ -51,14 +52,14 @@ Select the mesh object and click "Inspect mesh" to highlight the connectivity no
   <img src="img_readme/unsupport-highlight-1.png" width="325" />
 </p>
 
-> Users can fix the unsupported configuration by simply run one iteration of Catmull-Clark subdivision.
+> Users can fix unsupported configurations by one step of Catmull-Clark subdivision.
 
 &nbsp;
 
 ## B-spline patch generaton
 Select the mesh object and click "Generate Bspline Patches" to generate multiple patch objects.
 
-> May take few seconds for larger mesh
+> This may take a few seconds for a larger mesh
 
 <p float="left">
   <img src="img_readme/monkey_mesh.png" width="320" />
@@ -68,7 +69,7 @@ Select the mesh object and click "Generate Bspline Patches" to generate multiple
 &nbsp;
 
 ## Interactive modeling
-Now user can drag the control points to edit the shape in real-time.
+Now the user can drag the control points to edit the shape in real-time.
 
 <p float="left">
   <img src="img_readme/modeling_before.png" width="325" />
