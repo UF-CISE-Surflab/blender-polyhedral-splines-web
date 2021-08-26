@@ -23,8 +23,8 @@ email: jorg.peters@gmail.com kyleshihhuanglo@ufl.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Low-degree semi-structured spline is an Blender add-on that can convert quad-dominant mesh
   into piecewise B-spline patches, and enables artists to edit the shape in real-time.
-baseurl: "blender-semi-structured-spline" # the subpath of your site, e.g. /blog
-url: "kylelo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" #"blender-semi-structured-spline" # the subpath of your site, e.g. /blog
+url: "" #"kylelo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: surflab
 

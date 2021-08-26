@@ -13,11 +13,14 @@ Low-degree semi-structured spline is an [Blender](https://www.blender.org/) [add
 into piecewise B-spline patches, and enables artists to edit the shape in real-time.
 
 **Features**
-1. Produce smooth surface without subdividing the mesh.
-(The Blender's default [subdivision](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/subdivision_surface.html) and [smooth operator](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/smooth.html), exponentially increase the number of vertices. This can cause excessive computational and storage overhead)
-2. Guarantee [C1](https://en.wikipedia.org/wiki/Smoothness) between patches (easy, exact computation of exact moments, e.g. volume, center of mass, axes of inertia, ...)
-3. Low-degree splines generalize bi-2 (bi-quadratic) splines. Bi-2 splines are by default less smooth than bi-3 splines
-and curvature changes more sharply. This may be useful to preserve the polyhedral character of the input.
+1. Produce smooth surface without subdividing the mesh.  
+  <span style="color:gray">(The Blender's default [subdivision](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/subdivision_surface.html) and [smooth operator](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/smooth.html), exponentially increase the number of vertices. This can cause excessive computational and storage overhead)</span>
+
+2. Guarantee [C1](https://en.wikipedia.org/wiki/Smoothness) between patches  
+  <span style="color:gray">(easy, exact computation of exact moments, e.g. volume, center of mass, axes of inertia, ...)</span>
+
+3. May be useful to preserve the polyhedral character of the input  
+  <span style="color:gray">(Low-degree splines generalize bi-2, bi-quadratic, splines. Bi-2 splines are by default less smooth than bi-3 splines and curvature changes more sharply.)</span>
 
 <!-- demo video here -->
 **Demo video**
