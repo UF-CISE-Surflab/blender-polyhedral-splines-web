@@ -63,12 +63,12 @@ Select the mesh object and click "Generate Bspline Patches" to generate multiple
 
 > This may take a few seconds for a larger mesh
 
+> Please make sure axis of import mesh is Y-forward & Z-up or patches may not be aligned with mesh.
+
 <p float="left">
   <img src="img_readme/monkey_mesh.png" width="320" />
   <img src="img_readme/monkey_ssp.png" width="324" />
 </p>
-
-> Please make sure axis of import mesh is Y-forward & Z-up or patches may not be aligned with mesh.
 
 &nbsp;
 
