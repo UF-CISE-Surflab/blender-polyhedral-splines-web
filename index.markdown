@@ -29,7 +29,7 @@ src="https://www.youtube.com/embed/vE64RBpCsEY?rel=0&autoplay=1&modestbranding=1
 &nbsp;&nbsp;
 
 # Installation
-1. Download [Low-degree semi-structured spline repo](https://bitbucket.org/surflab/blender-semi-structure-spline/src/cleanup/) as add-on .zip file
+1. Download [Low-degree semi-structured spline repo](https://github.com/UF-CISE-Surflab/blender-semi-structure-spline) as add-on .zip file
 2. Follow [official add-on installation guide](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html).
 
 &nbsp;&nbsp;
