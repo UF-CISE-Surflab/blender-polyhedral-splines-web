@@ -9,7 +9,7 @@ layout: home
 
 
 <!-- words -->
-Low-degree semi-structured spline is an [Blender](https://www.blender.org/) [add-on](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html) that can convert quad-dominant mesh
+[Low-degree semi-structured spline](https://github.com/UF-CISE-Surflab/blender-semi-structure-spline) is an [Blender](https://www.blender.org/) [add-on](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html) that can convert quad-dominant mesh
 into piecewise B-spline patches, and enables artists to edit the shape in real-time.
 
 **Features**
