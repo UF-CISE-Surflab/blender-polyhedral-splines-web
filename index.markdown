@@ -112,7 +112,7 @@ Click on "View" then "Toggle Mesh Faces" to hide/show the semi-transparent contr
 &nbsp;
 
 ### Hide patch objects
-Filter out the patch objects and keep the control polygon in the scene collection list (won't affect displaying).
+Filter out the patch objects and keep the control polygon in the scene collection list. (This does not affect the display.)
 
 <p float="left">
   <img src="img_readme/filter_object_panel.png" width="130" />
