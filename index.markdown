@@ -9,7 +9,7 @@ layout: home
 
 
 <!-- words -->
-[**Low-degree semi-structured splines** (LDssS)](https://github.com/UF-CISE-Surflab/blender-semi-structure-spline) is a [Blender](https://www.blender.org/) [add-on](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html) that converts quad-dominant meshes into B-spline patches.
+[**Low-degree semi-structured splines (LDssS)**](https://github.com/UF-CISE-Surflab/blender-semi-structure-spline) is a [Blender](https://www.blender.org/) [add-on](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html) that converts quad-dominant meshes into B-spline patches.
 This enables artists to edit spline surfaces in real-time via the existing polyhedral modeling capabilities of Blender.
 
 **Features**
