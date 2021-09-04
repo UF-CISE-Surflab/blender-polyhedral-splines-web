@@ -42,7 +42,7 @@ src="https://www.youtube.com/embed/vE64RBpCsEY?rel=0&autoplay=1&modestbranding=1
 &nbsp;&nbsp;
 
 # How to find the installed add-on in Blender?
-Click on the small left angle bracket to expend the panel
+Click on the small left angle bracket to expand the panel
 
 ![Alt text](img_readme/find_addon_panel_1.png)
 
@@ -61,16 +61,16 @@ Select the mesh object and click "Inspect mesh" to highlight the connectivity no
   <img src="img_readme/unsupport-highlight-1.png" width="325" />
 </p>
 
-> Users can fix unsupported configurations by one step of Catmull-Clark subdivision.
+> If fixing connectivity is tricky: one  step of Catmull-Clark subdivision always yields a supported configuration.
 
 &nbsp;
 
 ## B-spline patch generaton
 Select the mesh object and click "Generate Bspline Patches" to generate multiple patch objects.
 
-> This may take a few seconds for a larger mesh
+> This may take a few seconds for a larger mesh due to Blender's structure creation overhead.
 
-> Please make sure axis of import mesh is Y-forward & Z-up or patches may not be aligned with mesh.
+> Please make sure axis of import mesh is Y-forward & Z-up. Otherwise patches are not aligned with the mesh.
 
 <p float="left">
   <img src="img_readme/monkey_mesh.png" width="320" />
@@ -101,7 +101,7 @@ Expand "Viewport Shading" and (dis)select "Outline".
 &nbsp;
 
 ### Show / Hide faces of control polygon
-Click on "View" then "Toggle Mesh Faces" to hide/show to face to control polygon (input mesh).
+Click on "View" then "Toggle Mesh Faces" to hide/show the semi-transparent control polyhedron ( = input polyhedron).
 
 <p float="left">
   <img src="img_readme/toggle.png" width="140" />
@@ -112,7 +112,7 @@ Click on "View" then "Toggle Mesh Faces" to hide/show to face to control polygon
 &nbsp;
 
 ### Hide patch objects
-Filter out the patch objects and keep the control polygon in scene collection list (won't affect displaying).
+Filter out the patch objects and keep the control polygon in the scene collection list (won't affect displaying).
 
 <p float="left">
   <img src="img_readme/filter_object_panel.png" width="130" />
