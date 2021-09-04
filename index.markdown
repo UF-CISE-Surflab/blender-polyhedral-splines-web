@@ -24,8 +24,9 @@ This enables artists to edit spline surfaces in real-time via the existing polyh
 <p float="left">
     <img src="img_readme/tricube_LDssS.png" width="300" />
     <img src="img_readme/tricube_catmull_clark.png" width="300" />
-    <figcaption>Left: LDssS / Right: Catmull Clark</figcaption>
 </p>
+
+&nbsp;
 
 <!-- demo video here -->
 **Demo video**
