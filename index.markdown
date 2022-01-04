@@ -9,7 +9,7 @@ layout: home
 
 
 <!-- words -->
-[Low-degree semi-structured splines (LDssS)](https://github.com/UF-CISE-Surflab/blender-semi-structure-spline) is a [Blender](https://www.blender.org/) [add-on](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html) that converts quad-dominant meshes into B-spline patches.
+[Polyhedral splines](https://github.com/UF-CISE-Surflab/blender-polyhedral-splines) is a [Blender](https://www.blender.org/) [add-on](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html) that converts quad-dominant meshes into B-spline patches.
 This enables artists to edit spline surfaces in real-time via the existing polyhedral modeling capabilities of Blender.
 
 **Features**
@@ -19,7 +19,7 @@ This enables artists to edit spline surfaces in real-time via the existing polyh
 2. Easy, exact computation of moments, e.g. volume, center of mass, axes of inertia, ...
 
 3. Preserves the polyhedral character of the input  
-  <span style="color:gray">(Low-degree splines generalize bi-2, bi-quadratic, splines. Bi-2 splines are by default less smooth than bi-3 splines, and curvature changes more sharply.)</span>
+  <span style="color:gray">(Polyhedral splines generalize bi-2, bi-quadratic, splines. Bi-2 splines are by default less smooth than bi-3 splines, and curvature changes more sharply.)</span>
 
 <p float="left">
     <img src="img_readme/tricube_LDssS.png" width="300" />
@@ -36,7 +36,7 @@ src="https://www.youtube.com/embed/vE64RBpCsEY?rel=0&autoplay=1&modestbranding=1
 &nbsp;&nbsp;
 
 # Installation
-1. Download [Low-degree semi-structured spline repo](https://github.com/UF-CISE-Surflab/blender-semi-structure-spline) as add-on .zip file
+1. Download [Polyhedral splines repo](https://github.com/UF-CISE-Surflab/blender-polyhedral-splines) as add-on .zip file
 2. Follow [official add-on installation guide](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html).
 
 &nbsp;&nbsp;
