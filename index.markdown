@@ -37,6 +37,10 @@ This enables artists to edit spline surfaces in real-time via the existing polyh
     <img src="img_readme/tricube_catmull_clark.png" width="350" />
 </p>
 
+<p float="left">
+    <img src="img_readme/tesla_compare.png" width="800" />
+</p>
+
 &nbsp;
 
 <!-- demo video here -->
