@@ -38,7 +38,7 @@ This enables artists to edit spline surfaces in real-time via the existing polyh
 </p>
 
 <p float="left">
-    <img src="img_readme/tesla_compare.jpg" width="800" />
+    <img src="img_readme/tesla_compare.jpg" width="700" />
 </p>
 
 &nbsp;
