@@ -33,15 +33,13 @@ This enables artists to edit spline surfaces in real-time via the existing polyh
 
 3. Preserves the polyhedral character of the input  
   <span style="color:gray">(Polyhedral splines generalize bi-2, bi-quadratic, splines. Bi-2 splines are by default less smooth than bi-3 splines, and curvature changes more sharply.)</span>
-
-<p float="left">
-    <img src="img_readme/tricube_catmull_clark.png" width="350" />
-    <img src="img_readme/tricube_polyhedral_splines.png" width="350" />
-</p>
-
-<p float="left">
-    <img src="img_readme/tesla_compare.jpg" width="700" />
-</p>
+    <p float="left">
+        <img src="img_readme/tricube_catmull_clark.png" width="350" />
+        <img src="img_readme/tricube_polyhedral_splines.png" width="350" />
+    </p>
+    <p float="left">
+        <img src="img_readme/tesla_compare.jpg" width="700" />
+    </p>
 
 &nbsp;
 
