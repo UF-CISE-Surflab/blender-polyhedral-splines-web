@@ -24,14 +24,16 @@ This enables artists to edit spline surfaces in real-time via the existing polyh
 
 **Features**
 1. Smooth surfaces without subdividing the mesh.
-  <span style="color:gray">(The Blender's default [subdivision](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/subdivision_surface.html) and [smooth](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/smooth.html) operator exponentially increase the number of vertices. This can cause high computational and storage overhead for downstream operations)</span> (Note: Blender does not display spline patch boundaries correctly yielding fictitious creases due to incorrectly computed normals. Export as igs and display with FreeCAD or similar to have these fictitious creases disappear. The surface is G1)
+  <span style="color:gray">(The Blender's default [subdivision](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/subdivision_surface.html) and [smooth](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/smooth.html) operator exponentially increase the number of vertices. This can cause high computational and storage overhead for downstream operations)</span>
+<sub> Blender computes spline patch boundary normals incorrectly displaying  fictitious creases. Export as igs and display
+for example with FreeCAD to have these fictitious creases disappear. The surface is G1</sub.
     <p float="left">
         <img src="img_readme/subd_compare.jpg" width="800" />
     </p>
 
-2. Easy, exact computation of moments, e.g. volume, center of mass, axes of inertia, ...
+3. Easy, exact computation of moments, e.g. volume, center of mass, axes of inertia, ...
 
-3. Preserves the polyhedral character of the input  
+4. Preserves the polyhedral character of the input  
   <span style="color:gray">(Polyhedral-net splines generalize bi-2, bi-quadratic, splines. Bi-2 splines are by default less smooth than bi-3 splines, and curvature changes more sharply.)</span>
     <p float="left">
         <img src="img_readme/tricube_catmull_clark.png" width="350" />
