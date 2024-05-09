@@ -9,7 +9,7 @@ layout: home
 
 
 <!-- words -->
-[Polyhedral-net splines](https://github.com/UF-CISE-Surflab/blender-polyhedral-splines) is a [Blender](https://www.blender.org/) [add-on](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html) that converts quad-dominant meshes into B-spline patches.
+[Polyhedral-net splines](https://github.com/UF-CISE-Surflab/blender-polyhedral-splines) (PnS2) is a [Blender](https://www.blender.org/) [add-on](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html) that converts quad-dominant meshes into B-spline patches.
 This enables artists to edit spline surfaces in real-time via the existing polyhedral modeling capabilities of Blender.
 
 <p float="left">
@@ -34,7 +34,7 @@ for example with FreeCAD to have these fictitious creases disappear. The surface
 3. Easy, exact computation of moments, e.g. volume, center of mass, axes of inertia, ...
 
 4. Preserves the polyhedral character of the input  
-  <span style="color:gray">(Polyhedral-net splines generalize bi-2, bi-quadratic, splines. Bi-2 splines are by default less smooth than bi-3 splines, and curvature changes more sharply.)</span>
+  <span style="color:gray">(Polyhedral-net splines (PnS2) generalize bi-2, bi-quadratic, splines. Bi-2 splines are by default less smooth than bi-3 splines, and curvature changes more sharply.)</span>  <sub> PnS3, a different package, generalizes bi-3 C2 splines </sub>
     <p float="left">
         <img src="img_readme/tricube_catmull_clark.png" width="350" />
         <img src="img_readme/tricube_polyhedral_splines.png" width="350" />
