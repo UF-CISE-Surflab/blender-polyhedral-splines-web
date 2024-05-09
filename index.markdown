@@ -26,7 +26,7 @@ This enables artists to edit spline surfaces in real-time via the existing polyh
 1. Smooth surfaces without subdividing the mesh.
   <span style="color:gray">(The Blender's default [subdivision](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/subdivision_surface.html) and [smooth](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/smooth.html) operator exponentially increase the number of vertices. This can cause high computational and storage overhead for downstream operations)</span>
 <sub> Blender computes spline patch boundary normals incorrectly displaying  fictitious creases. Export as igs and display
-for example with FreeCAD to have these fictitious creases disappear. The surface is G1</sub.
+for example with FreeCAD to have these fictitious creases disappear. The surface is G1</sub>.
     <p float="left">
         <img src="img_readme/subd_compare.jpg" width="800" />
     </p>
